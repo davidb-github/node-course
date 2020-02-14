@@ -9,5 +9,5 @@ emitter.on('messageLogged', function(e){
 
 
 // Raise an event
-emitter.emit('messageLogged', {id: 1, url: 'http://'});
+emitter.emit('messageLogged', {id: 1, message: 'Banana'});
 
