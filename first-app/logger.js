@@ -1,4 +1,4 @@
-var = url = 'http//mylogger.ioggg/log';
+var url = 'http//mylogger.ioggg/log';
 
 function log(message) {
     //Send an HTTP request
@@ -6,4 +6,4 @@ function log(message) {
 }
 
 module.exports.log = log;
-module.exports.endPoint = url;
+//module.exports.endPoint = url;
