@@ -1,12 +1,11 @@
-var logger = require('./logger.js'); 
+const os = require('os');
 
-console.log(logger);
+var = totalMemory = os.totalmem();
+var = freeMemory = os.freemem();
 
-/*
-function sayHello(name) {
-  console.log('Hello ' + name);
+//console.log('Total Memory: ' + totalMemory);
 
-}
 
-sayHello('Mosh');
-*/
+console.log(`Total Memory: ${totalMemory}`);
+console.log(`Free Memory: ${freeMemory}`);
+
