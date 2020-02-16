@@ -1,4 +1,4 @@
-var url = 'http//mylogger.ioggg/log';
+var url = 'http//<insert-endPoint>/log';
 
 function log(message) {
     //Send an HTTP request
