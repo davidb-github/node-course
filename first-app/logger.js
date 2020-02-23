@@ -8,7 +8,7 @@ class Logger extends EventEmitter {
     console.log(message);
         
     // Raise an event
-    this.emit('messageLogged', {id: 1, message: 'Orange'});
+    this.emit('messageLogged', {id: 1, message: 'http://<endPoint>'});
         
 }
 
