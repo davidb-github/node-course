@@ -1,15 +1,15 @@
 const EventEmitter = require('events');
-const emitter = new EventEmitter();
 
-var url = 'http//<insert-endPoint>/log';
+var url = 'http://<endPoint>';
 
-function log(message) {
-//Send an HTTP request
-console.log(message);
-
-// Raise an event
-emitter.emit('messageLogged', {id: 1, message: 'Orange'});
-
+class Logger extends EventEmitter {
+  log(message) {
+    //Send an HTTP request
+    console.log(message);
+        
+    // Raise an event
+    this.emit('messageLogged', {id: 1, message: 'http://<endPoint>'});       
+}
 }
 
-module.exports = log;
+module.exports = Logger;
