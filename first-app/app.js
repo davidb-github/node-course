@@ -9,4 +9,4 @@ emitter.on('messageLogged', (e) => {
     console.log('Listener called', e);
 });
 
-logger.log('banana');
+logger.log('apple');
